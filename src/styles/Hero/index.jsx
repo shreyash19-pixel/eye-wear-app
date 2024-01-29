@@ -17,7 +17,7 @@ export const HeroContainer = styled.div`
 
     @media (max-width: 480px)
     {
-       padding-inline: 25px;
+       padding-inline: 20px;
        padding-top: 20px;
     }
 
