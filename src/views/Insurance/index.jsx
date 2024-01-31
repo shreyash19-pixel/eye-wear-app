@@ -1,8 +1,8 @@
 import React from 'react'
-import { InsuranceAndShopOnlineWrap, InsuranceContainer, InsuranceGlassWrap, InsuranceImgWrap, InsuranceInfoWrap, InsuranceTagLine, InsuranceTagLineWrap, InsuranceWrapper, OnlineShopDesc, OnlineShopImgContainer, OnlineShopImgWrap, OnlineShopInfoWrap, OnlineShopWrap } from '../../styles/Insurance'
+import { ColorWrap, InsuranceAndShopOnlineWrap, InsuranceContainer, InsuranceGlassWrap, InsuranceImgWrap, InsuranceInfoWrap, InsuranceTagLine, InsuranceTagLineWrap, InsuranceWrapper, LensesDesc, LensesDescHeading, LensesDescWrap, LensesImg,  LensesImgWrap, LensesInfoWrap, LensesWrap, OnlineShopDesc, OnlineShopImgContainer, OnlineShopImgWrap, OnlineShopInfoWrap, OnlineShopWrap, UnrivelledWrap } from '../../styles/Insurance'
 import { AboutDescWrap, AboutTagLineWrap, TagLineWrap } from '../../styles/About'
 import { ExploreShop, HeroDesc, HeroDescWrap, HeroLinksWrap, HeroTagLine } from '../../styles/Hero'
-
+import LenseImg from '../../assets/glass6.png'
 
 const Insurance = () => {
   return (
@@ -16,6 +16,7 @@ const Insurance = () => {
                     <HeroDesc>Select one card to find the perfect style or lenses, according to your needs.</HeroDesc>
                 </AboutDescWrap>
             </AboutTagLineWrap>
+            <UnrivelledWrap>
             <InsuranceAndShopOnlineWrap>
                 <InsuranceInfoWrap>
                     <InsuranceTagLineWrap>
@@ -56,6 +57,31 @@ const Insurance = () => {
                     </OnlineShopImgContainer>
                 </OnlineShopWrap>
             </InsuranceAndShopOnlineWrap>
+            <LensesWrap>
+                <LensesInfoWrap>
+                    <InsuranceTagLineWrap>
+                        <InsuranceTagLine>
+                            Our lenses
+                        </InsuranceTagLine>
+                    </InsuranceTagLineWrap>
+                    <LensesDescWrap>
+                        <LensesDescHeading>Transitions®</LensesDescHeading>
+                        <LensesDesc>
+                            They quickly darken in sunlight and fade back to clear indoors: eyeglasses and sunglasses in one. Available in prescription and non-prescription glasses.
+                        </LensesDesc>
+                    </LensesDescWrap>
+                    <ColorWrap>
+                        <LensesDescHeading>Blue-violet light</LensesDescHeading>
+                    </ColorWrap>
+                    <ColorWrap>
+                        <LensesDescHeading>Prescription sun</LensesDescHeading>
+                    </ColorWrap>
+                </LensesInfoWrap>
+                    <LensesImgWrap>
+                        <LensesImg src = {LenseImg} />
+                    </LensesImgWrap>
+            </LensesWrap>
+            </UnrivelledWrap>
         </InsuranceWrapper>
     </InsuranceContainer>
   )
