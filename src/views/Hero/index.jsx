@@ -102,7 +102,7 @@ const Hero = () => {
                 margin={20}
                 responsive={responsiveOptions} 
                 center={true}
-        >
+            >
                 <CustomerTryOutImgWrap1>
                     <CustomerTryOutImgs src = {TryOut1} />
                     <NameWrap>

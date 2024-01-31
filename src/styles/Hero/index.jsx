@@ -4,28 +4,14 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
     width: 100%;
     background-color: #EEF3FF;
-    padding-block: 60px;
-    padding-left: 60px;
-    padding-right: 10px;
-    
-
-    @media (max-width: 768px)
-    {
-       padding-right: 60px;
-       padding-top: 30px;
-    }
-
-    @media (max-width: 480px)
-    {
-       padding-inline: 20px;
-       padding-top: 20px;
-    }
-
+    padding-block: 20px;
 `
 
 export const HeroWrap = styled.div`
     display: flex;
     gap: 30px;
+    align-items: center;
+
 
     @media (max-width: 768px)
     {
@@ -41,6 +27,21 @@ export const HeroInfoWrap = styled.div`
     display: flex;
     flex-direction: column;
     gap: 25px;
+
+    padding-inline: 60px;
+    
+
+    @media (max-width: 768px)
+    {
+       padding-right: 60px;
+       padding-top: 30px;
+    }
+
+    @media (max-width: 480px)
+    {
+       padding-inline: 20px;
+       padding-top: 20px;
+    }
 `
 
 export const HeroTagLineWrap = styled.div`
@@ -51,10 +52,16 @@ export const HeroTagLineWrap = styled.div`
     {
        max-width: 768px;
     }
+
+    @media (max-width: 500px)
+    {
+        text-align: center;
+    }
 `
 
 export const HeroTagLine = styled.h1` 
-    font-size: 45px;
+   font-family: 'Merriweather', serif;
+   font-size: 45px;
 
     @media (max-width: 1130px)
     {
@@ -112,6 +119,7 @@ export const ExploreShop = styled.a`
     border-radius: 30px;
     border: 1px solid black;
     text-decoration: none;
+    font-size: 14px;
 
     @media (max-width: 1130px)
     {
@@ -123,6 +131,8 @@ export const ExploreShop = styled.a`
     {
        padding: 10px 15px;
     }
+
+
 `
 
 export const CutomerRateWrap = styled.div`
@@ -189,6 +199,8 @@ export const StarsSec = styled.div`
 export const StarsCont = styled.div`
     display: flex;
     gap: 1px;
+    align-items: center;
+    justify-content: center;
 `
 
 export const TrustPilotWrap = styled.div`
@@ -212,6 +224,7 @@ export const CustomersTryOutWrap = styled.div`
     max-width: 730px;
     display: flex;
     gap: 15px;
+    cursor: pointer;
 
     @media (max-width: 768px)
     {
