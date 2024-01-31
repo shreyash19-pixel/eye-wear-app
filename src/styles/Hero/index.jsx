@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
     width: 100%;
     background-color: #EEF3FF;
-    padding-block: 20px;
+    padding-block: 30px;
 `
 
 export const HeroWrap = styled.div`

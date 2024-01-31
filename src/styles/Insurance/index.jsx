@@ -262,6 +262,7 @@ export const VirtualImg = styled.img`
 `
 export const SpecialistsDoctorAndMachineWrap = styled.div`
     width: 100%;
+    height: 100%;
     display: flex;
     gap: 10px;
 
@@ -301,14 +302,16 @@ export const DoctorsContainer = styled.div`
 export const MachineImgWrap = styled.div`
     background-image: url(${CheckMachine});
     width: 100%;
-    height: 205px;
-    background-size: 270px 220px;
+    height: 290px;
+    background-size: 290px 290px;
     background-position: center;
     background-repeat: no-repeat;
+    
 
 
-    @media (max-width: 1074px)
+    @media (max-width: 384px)
     {
+        height: 220px;
         background-size: 220px 190px;
     }
 

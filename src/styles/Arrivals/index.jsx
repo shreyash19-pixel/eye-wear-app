@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const ArrivalsContainer = styled.div`
     width: 100%;
-    padding-block: 60px;
+    padding-block: 40px;
 
     @media (max-width: 400px) {
         padding-inline: 15px;
+        padding-block: 20px;
     }
 `
 
@@ -14,6 +15,10 @@ export const ArrivalsWrap = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    @media (max-width: 400px) {
+        gap: 15px;
+    }
 `
 
 export const GlassesWrapper = styled.div`

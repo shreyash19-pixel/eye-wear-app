@@ -1,10 +1,10 @@
 import React from 'react'
-import {SpecialistsDoctorAndMachineWrap, ColorWrap, DoctorsContainer, InsuranceAndShopOnlineWrap, InsuranceContainer, InsuranceGlassWrap, InsuranceImgWrap, InsuranceInfoWrap, InsuranceTagLine, InsuranceTagLineWrap, InsuranceWrapper, LensesDesc, LensesDescHeading, LensesDescWrap, LensesImg,  LensesImgWrap, LensesInfoWrap, LensesWrap, OnlineShopDesc, OnlineShopImgContainer, OnlineShopImgWrap, OnlineShopInfoWrap, OnlineShopWrap, SpecialistsDoctorWrap, UnrivelledWrap, VirtualImg, VirtualImgWrap, VirtualWrap, MachineImgWrap } from '../../styles/Insurance'
+import {SpecialistsDoctorAndMachineWrap, ColorWrap, InsuranceAndShopOnlineWrap, InsuranceContainer, InsuranceGlassWrap, InsuranceImgWrap, InsuranceInfoWrap, InsuranceTagLine, InsuranceTagLineWrap, InsuranceWrapper, LensesDesc, LensesDescHeading, LensesDescWrap, LensesImg,  LensesImgWrap, LensesInfoWrap, LensesWrap, OnlineShopDesc, OnlineShopImgContainer, OnlineShopImgWrap, OnlineShopInfoWrap, OnlineShopWrap, UnrivelledWrap, VirtualImg, VirtualImgWrap, VirtualWrap, MachineImgWrap } from '../../styles/Insurance'
 import { AboutDescWrap, AboutTagLineWrap, TagLineWrap } from '../../styles/About'
-import { CustomerImg1Wrap, CustomerImg2Wrap, CustomerImg3Wrap, CustomerImgSec, CutomerImg, ExploreShop, HeroDesc, HeroDescWrap, HeroLinksWrap, HeroTagLine, Ratings, RatingsWrap, SatisfiedCustomer } from '../../styles/Hero'
+import { ExploreShop, HeroDesc, HeroDescWrap, HeroLinksWrap, HeroTagLine} from '../../styles/Hero'
 import LenseImg from '../../assets/glass6.png'
 import VirtualImage from '../../assets/tryout4.png'
-import DocsImg1 from '../../assets/docs1.jpg'
+
 
 
 const Insurance = () => {
@@ -117,25 +117,6 @@ const Insurance = () => {
                         <ExploreShop href = "#" shop>Schedule now</ExploreShop>
                     </HeroLinksWrap>
                    <SpecialistsDoctorAndMachineWrap>
-                    <SpecialistsDoctorWrap>
-                        <DoctorsContainer>
-                            <CustomerImgSec>
-                                <CustomerImg1Wrap>
-                                    <CutomerImg src = {DocsImg1} />
-                                </CustomerImg1Wrap>
-                                <CustomerImg2Wrap>
-                                    <CutomerImg src = {DocsImg1} />
-                                </CustomerImg2Wrap>
-                                <CustomerImg3Wrap>
-                                    <CutomerImg src = {DocsImg1} />
-                                </CustomerImg3Wrap>
-                            </CustomerImgSec>
-                            <RatingsWrap>
-                                <Ratings>100+</Ratings>
-                                <SatisfiedCustomer>Eye specialist</SatisfiedCustomer>
-                            </RatingsWrap>
-                        </DoctorsContainer>
-                    </SpecialistsDoctorWrap>
                     <MachineImgWrap>
                         
                     </MachineImgWrap>

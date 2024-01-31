@@ -2,14 +2,17 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
     width: 100%;
-   
 `
 
 export const AboutWrap = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
+
+     @media (max-width: 400px) {
+        gap: 15px;
+    }
 `
 
 export const AboutTagLineWrap = styled.div`
