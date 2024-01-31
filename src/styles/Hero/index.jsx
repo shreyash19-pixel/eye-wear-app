@@ -168,6 +168,12 @@ export const CustomerImg2Wrap = styled.div`
     z-index: 3;
 `
 
+export const CustomerImg3Wrap = styled.div`
+     position: relative;
+    left: -12px;
+    z-index: 4;
+`
+
 export const CutomerImg = styled.img`
     width: 35px;
     height: 35px;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import GlassImage1 from '../../assets/glass2.png' 
 import GlassImg2 from '../../assets/glass5.png'
+import CheckMachine from '../../assets/checkup-machine.png'
 
 export const InsuranceContainer = styled.div`
     width: 100%;
@@ -234,3 +235,82 @@ export const LensesImg = styled.img`
     object-fit: cover;
     object-position: center;
 `
+
+
+
+export const VirtualWrap = styled.div`
+    width: 100%;
+    height: 100%;
+    background-color: #eaeed6;
+    border-radius: 30px;
+
+    @media (max-width: 768px)
+    {
+        max-width: 768px;
+    }
+    
+`
+export const VirtualImgWrap = styled.div`
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: -29px;
+`
+
+export const VirtualImg = styled.img`
+    width: 100%;
+`
+export const SpecialistsDoctorAndMachineWrap = styled.div`
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    @media (max-width: 1010px)
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+`
+
+export const SpecialistsDoctorWrap = styled.div`
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 200px;
+    width: 100%;
+    max-width: 200px;
+
+    @media (max-width: 1010px)
+    {
+        min-height: 10px;
+    }
+   
+`
+
+export const DoctorsContainer = styled.div`
+    display: flex;
+
+    @media (max-width: 1010px)
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+`
+
+export const MachineImgWrap = styled.div`
+    background-image: url(${CheckMachine});
+    width: 100%;
+    height: 205px;
+    background-size: 270px 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    @media (max-width: 1074px)
+    {
+        background-size: 220px 190px;
+    }
+
+`
+
