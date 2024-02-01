@@ -8,7 +8,7 @@ import { CiUser } from "react-icons/ci";
 import OwlCarousel from 'react-owl-carousel';  
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css'; 
-import { AboutTagLineWrap, TagLineWrap } from '../../styles/About'
+import { AboutTagLineWrap} from '../../styles/About'
 
 const Arrivals = () => {
 
@@ -37,7 +37,7 @@ const Arrivals = () => {
         },
     };
   return (
-    <ArrivalsContainer>
+    <ArrivalsContainer id = "Eyeglasses">
         <ArrivalsWrap>
          <AboutTagLineWrap> 
                 <HeroTagLine>

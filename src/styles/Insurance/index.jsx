@@ -61,6 +61,7 @@ export const InsuranceInfoWrap = styled.div`
     gap: 15px;
     border-radius: 30px;
     padding: 30px;
+    justify-content: space-between;
 `
 
 export const InsuranceTagLineWrap = styled.div`
@@ -97,10 +98,16 @@ export const InsuranceGlassWrap = styled.div`
 export const InsuranceImgWrap = styled.div`
      background-image: url(${GlassImage1});
      width: 100%;
-     height: 205px;
-     background-size: cover;
+     min-height: 205px;
+     background-size: 500px 500px;
     background-position: center;
     background-repeat: no-repeat;
+
+    @media (max-width: 1082px)
+    {
+        background-size: cover;
+    }
+
 `   
 
 
@@ -169,6 +176,7 @@ export const LensesWrap = styled.div`
     border-radius : 30px;
     display: flex;
     gap: 20px;
+    justify-content: space-between;
     padding: 30px;
 
     @media (max-width: 768px)
@@ -302,7 +310,7 @@ export const DoctorsContainer = styled.div`
 export const MachineImgWrap = styled.div`
     background-image: url(${CheckMachine});
     width: 100%;
-    height: 290px;
+    height: 100%;
     background-size: 290px 290px;
     background-position: center;
     background-repeat: no-repeat;

@@ -24,19 +24,17 @@ const Nav = () => {
                 <CompanyName>Focal</CompanyName>
             </CompanyNameWrap>
             <NavLinksWrap>
-                <Navlinks href = "#">Eyeglasses</Navlinks>
-                <Navlinks href = "#">Sunglasses</Navlinks>
-                <Navlinks href = "#">Brands</Navlinks>
-                <Navlinks href = "#">About</Navlinks>
+                <Navlinks href = "#Eyeglasses">Eyeglasses</Navlinks>
+                <Navlinks href = "#Tryout">Tryout</Navlinks>
+                <Navlinks href = "#About">About</Navlinks>
             </NavLinksWrap>
             <HamWrap onClick = {handleNav}>
                 {nav ? <GiHamburgerMenu /> : <RxCross1 />}
             </HamWrap>
             {!nav && (<HiddenNavLinks>
-            <Navlinks href = "#" onClick={handleOverFlow}>Eyeglasses</Navlinks>
-                <Navlinks href = "#" onClick={handleOverFlow}>Sunglasses</Navlinks>
-                <Navlinks href = "#" onClick={handleOverFlow}>Brands</Navlinks>
-                <Navlinks href = "#" onClick={handleOverFlow}>About</Navlinks>
+            <Navlinks href = "#Eyeglasses" onClick={handleOverFlow}>Eyeglasses</Navlinks>
+                <Navlinks href = "#Tryout" onClick={handleOverFlow}>Tryout</Navlinks>
+                <Navlinks href = "#About" onClick={handleOverFlow}>About</Navlinks>
             </HiddenNavLinks>)}
         </NavBar>
     </NavbarWrap>

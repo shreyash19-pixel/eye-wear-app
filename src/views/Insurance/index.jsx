@@ -9,7 +9,7 @@ import VirtualImage from '../../assets/tryout4.png'
 
 const Insurance = () => {
   return (
-    <InsuranceContainer>
+    <InsuranceContainer id = "About">
         <InsuranceWrapper>
             <AboutTagLineWrap>
                 <TagLineWrap>
