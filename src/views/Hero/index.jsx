@@ -38,10 +38,10 @@ const Hero = () => {
                     <HeroDesc>We're all about finding you that perfect pair, Experience the difference a perfect pair makes. Let's find yours together.</HeroDesc>
                 </HeroDescWrap>
                 <HeroLinksWrap>
-                    <ExploreShop  href = "#" shop = "true">
+                    <ExploreShop  href = "#Eyeglasses" shop = "true">
                         Explore shop
                     </ExploreShop>
-                    <ExploreShop href = "#">
+                    <ExploreShop href = "#About">
                         Use Your Benefits
                     </ExploreShop>
                 </HeroLinksWrap>

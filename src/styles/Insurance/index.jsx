@@ -317,7 +317,7 @@ export const MachineImgWrap = styled.div`
     
 
 
-    @media (max-width: 384px)
+    @media (max-width: 768px)
     {
         height: 220px;
         background-size: 220px 190px;
