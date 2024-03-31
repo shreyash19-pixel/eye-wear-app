@@ -6,6 +6,9 @@ import CheckMachine from '../../assets/checkup-machine.png'
 export const InsuranceContainer = styled.div`
     width: 100%;
     padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @media (max-width: 1130px)
     {
@@ -26,6 +29,7 @@ export const InsuranceContainer = styled.div`
 
 export const InsuranceWrapper = styled.div`
     width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     gap: 20px;

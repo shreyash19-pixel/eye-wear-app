@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 
-export const FooterWrap = styled.div`
-    width: 100%;
+
+
+export const FooterContainer = styled.div`
+      width: 100%;
     padding: 80px 120px;
     display: flex;
+    align-items: center;
     background-color: #F5F5F5;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 
     @media (max-width: 1000px)
@@ -29,8 +32,16 @@ export const FooterWrap = styled.div`
     }
 `
 
+export const FooterWrap = styled.div`
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+`
+
 export const PersonalInfoWrap = styled.div`
     width: 100%;
+    max-width: 1200px;
     max-width: 350px;
     display: flex;
     flex-direction: column;
@@ -88,7 +99,7 @@ export const FooterLinksContainer = styled.div`
     width: 100%;
     display: flex;
     gap: 100px;
-    justify-content: center;
+    justify-content: flex-end;
 
     @media (max-width: 1000px)
     {
